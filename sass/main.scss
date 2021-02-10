@@ -1,6 +1,6 @@
 $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
-$color0primary-dark: #28b485;
+$color-primary-dark: #28b485;
 
 $color-grey-dark: #777;
 $color-white: white;
@@ -31,8 +31,8 @@ body {
     height: 95vh;
     background-image: linear-gradient(
         to right bottom,
-        rgba($color-primary-light 0.8),
-        rgba($color-primary-dark 0.8)),
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8)),
     url(../img/hero.jpg);
     background-size: cover;
     background-position: top;
