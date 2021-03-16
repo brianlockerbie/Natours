@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "sass sass/main.scss css/style.css --watch",
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel watch:sass devserver",
     "compile:sass": "sass sass/main.scss css/style.comp.css",
@@ -13,7 +13,7 @@
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
   "keywords": [],
-  "author": "",
+  "author": "Brian",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.0.1",
